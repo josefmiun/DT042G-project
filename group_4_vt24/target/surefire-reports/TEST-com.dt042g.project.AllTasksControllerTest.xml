@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.dt042g.project.AllTasksControllerTest" time="1.021" tests="22" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\josef\IdeaProjects\group_4_vt24\target\test-classes;C:\Users\josef\IdeaProjects\group_4_vt24\target\classes;C:\Users\josef\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\josef\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\josef\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\josef\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\josef\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.0\junit-jupiter-params-5.7.0.jar;C:\Users\josef\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\josef\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;C:\Users\josef\.m2\repository\org\json\json\20231013\json-20231013.jar;C:\Users\josef\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\josef\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\josef\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\josef\.m2\repository\org\xerial\sqlite-jdbc\3.44.1.0\sqlite-jdbc-3.44.1.0.jar;C:\Users\josef\.m2\repository\org\slf4j\slf4j-api\1.7.5\slf4j-api-1.7.5.jar;C:\Users\josef\.m2\repository\org\slf4j\slf4j-log4j12\1.7.5\slf4j-log4j12-1.7.5.jar;C:\Users\josef\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\josef\.m2\repository\org\apache\maven\plugins\maven-assembly-plugin\3.7.1\maven-assembly-plugin-3.7.1.jar;C:\Users\josef\.m2\repository\org\apache\maven\resolver\maven-resolver-util\1.4.1\maven-resolver-util-1.4.1.jar;C:\Users\josef\.m2\repository\org\apache\maven\resolver\maven-resolver-api\1.4.1\maven-resolver-api-1.4.1.jar;C:\Users\josef\.m2\repository\org\apache\maven\shared\maven-common-artifact-filters\3.3.2\maven-common-artifact-filters-3.3.2.jar;C:\Users\josef\.m2\repository\org\codehaus\plexus\plexus-interpolation\1.27\plexus-interpolation-1.27.jar;C:\Users\josef\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;C:\Users\josef\.m2\repository\org\apache\maven\shared\maven-filtering\3.3.2\maven-filtering-3.3.2.jar;C:\Users\josef\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\josef\.m2\repository\org\sonatype\plexus\plexus-build-api\0.0.7\plexus-build-api-0.0.7.jar;C:\Users\josef\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\josef\.m2\repository\org\codehaus\plexus\plexus-io\3.4.2\plexus-io-3.4.2.jar;C:\Users\josef\.m2\repository\org\codehaus\plexus\plexus-archiver\4.9.2\plexus-archiver-4.9.2.jar;C:\Users\josef\.m2\repository\org\apache\commons\commons-compress\1.26.1\commons-compress-1.26.1.jar;C:\Users\josef\.m2\repository\commons-codec\commons-codec\1.16.1\commons-codec-1.16.1.jar;C:\Users\josef\.m2\repository\org\iq80\snappy\snappy\0.4\snappy-0.4.jar;C:\Users\josef\.m2\repository\org\tukaani\xz\1.9\xz-1.9.jar;C:\Users\josef\.m2\repository\com\github\luben\zstd-jni\1.5.5-11\zstd-jni-1.5.5-11.jar;C:\Users\josef\.m2\repository\org\apache\maven\maven-archiver\3.6.1\maven-archiver-3.6.1.jar;C:\Users\josef\.m2\repository\org\codehaus\plexus\plexus-utils\4.0.0\plexus-utils-4.0.0.jar;C:\Users\josef\.m2\repository\org\codehaus\plexus\plexus-xml\3.0.0\plexus-xml-3.0.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Stockholm"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="SE"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
+    <property name="sun.java.command" value="C:\Users\josef\AppData\Local\Temp\surefire9158513720523851427\surefirebooter3654599766158582068.jar C:\Users\josef\AppData\Local\Temp\surefire9158513720523851427 2024-06-05T15-46-25_182-jvmRun1 surefire7090994883460868936tmp surefire_05725108206407488211tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\josef\IdeaProjects\group_4_vt24\target\test-classes;C:\Users\josef\IdeaProjects\group_4_vt24\target\classes;C:\Users\josef\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\josef\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\josef\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\josef\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\josef\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.0\junit-jupiter-params-5.7.0.jar;C:\Users\josef\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\josef\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;C:\Users\josef\.m2\repository\org\json\json\20231013\json-20231013.jar;C:\Users\josef\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\josef\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\josef\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\josef\.m2\repository\org\xerial\sqlite-jdbc\3.44.1.0\sqlite-jdbc-3.44.1.0.jar;C:\Users\josef\.m2\repository\org\slf4j\slf4j-api\1.7.5\slf4j-api-1.7.5.jar;C:\Users\josef\.m2\repository\org\slf4j\slf4j-log4j12\1.7.5\slf4j-log4j12-1.7.5.jar;C:\Users\josef\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\josef\.m2\repository\org\apache\maven\plugins\maven-assembly-plugin\3.7.1\maven-assembly-plugin-3.7.1.jar;C:\Users\josef\.m2\repository\org\apache\maven\resolver\maven-resolver-util\1.4.1\maven-resolver-util-1.4.1.jar;C:\Users\josef\.m2\repository\org\apache\maven\resolver\maven-resolver-api\1.4.1\maven-resolver-api-1.4.1.jar;C:\Users\josef\.m2\repository\org\apache\maven\shared\maven-common-artifact-filters\3.3.2\maven-common-artifact-filters-3.3.2.jar;C:\Users\josef\.m2\repository\org\codehaus\plexus\plexus-interpolation\1.27\plexus-interpolation-1.27.jar;C:\Users\josef\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;C:\Users\josef\.m2\repository\org\apache\maven\shared\maven-filtering\3.3.2\maven-filtering-3.3.2.jar;C:\Users\josef\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\josef\.m2\repository\org\sonatype\plexus\plexus-build-api\0.0.7\plexus-build-api-0.0.7.jar;C:\Users\josef\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\josef\.m2\repository\org\codehaus\plexus\plexus-io\3.4.2\plexus-io-3.4.2.jar;C:\Users\josef\.m2\repository\org\codehaus\plexus\plexus-archiver\4.9.2\plexus-archiver-4.9.2.jar;C:\Users\josef\.m2\repository\org\apache\commons\commons-compress\1.26.1\commons-compress-1.26.1.jar;C:\Users\josef\.m2\repository\commons-codec\commons-codec\1.16.1\commons-codec-1.16.1.jar;C:\Users\josef\.m2\repository\org\iq80\snappy\snappy\0.4\snappy-0.4.jar;C:\Users\josef\.m2\repository\org\tukaani\xz\1.9\xz-1.9.jar;C:\Users\josef\.m2\repository\com\github\luben\zstd-jni\1.5.5-11\zstd-jni-1.5.5-11.jar;C:\Users\josef\.m2\repository\org\apache\maven\maven-archiver\3.6.1\maven-archiver-3.6.1.jar;C:\Users\josef\.m2\repository\org\codehaus\plexus\plexus-utils\4.0.0\plexus-utils-4.0.0.jar;C:\Users\josef\.m2\repository\org\codehaus\plexus\plexus-xml\3.0.0\plexus-xml-3.0.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\josef"/>
+    <property name="user.language" value="sv"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-01-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\josef\IdeaProjects\group_4_vt24"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\josef\AppData\Local\Temp\surefire9158513720523851427\surefirebooter3654599766158582068.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.2+13-LTS-58"/>
+    <property name="user.name" value="josef"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\josef\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\josef\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2023.3.3"/>
+    <property name="java.version" value="21.0.2"/>
+    <property name="user.dir" value="C:\Users\josef\IdeaProjects\group_4_vt24"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Microsoft SDKs\Azure\CLI2\wbin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\josef\Desktop\kurser\Git\cmd;C:\Users\josef\Desktop\kurser\dt190g-js\Microsoft VS Code\bin;C:\Users\josef\AppData\Local\Microsoft\WindowsApps;C:\node32;;C:\Users\josef\Desktop\kurser\dt190g - js\Microsoft VS Code\bin;C:\Users\josef\AppData\Local\JetBrains\IntelliJ IDEA 2023.3.3\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.2+13-LTS-58"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="testSearching" classname="com.dt042g.project.AllTasksControllerTest" time="0.298"/>
+  <testcase name="testInvalidTaskNames{String}[1]" classname="com.dt042g.project.AllTasksControllerTest" time="0.154"/>
+  <testcase name="testInvalidTaskNames{String}[2]" classname="com.dt042g.project.AllTasksControllerTest" time="0.009"/>
+  <testcase name="testInvalidTaskNames{String}[3]" classname="com.dt042g.project.AllTasksControllerTest" time="0.017"/>
+  <testcase name="testInvalidTaskNames{String}[4]" classname="com.dt042g.project.AllTasksControllerTest" time="0.017"/>
+  <testcase name="testInvalidTaskNames{String}[5]" classname="com.dt042g.project.AllTasksControllerTest" time="0.015"/>
+  <testcase name="testInvalidTaskNames{String}[6]" classname="com.dt042g.project.AllTasksControllerTest" time="0.031"/>
+  <testcase name="testInvalidTaskNames{String}[7]" classname="com.dt042g.project.AllTasksControllerTest" time="0.02"/>
+  <testcase name="testInvalidTaskNames{String}[8]" classname="com.dt042g.project.AllTasksControllerTest" time="0.021"/>
+  <testcase name="testInvalidTaskNames{String}[9]" classname="com.dt042g.project.AllTasksControllerTest" time="0.012"/>
+  <testcase name="testInvalidTaskNames{String}[10]" classname="com.dt042g.project.AllTasksControllerTest" time="0.012"/>
+  <testcase name="testInvalidTaskNames{String}[11]" classname="com.dt042g.project.AllTasksControllerTest" time="0.017"/>
+  <testcase name="testInvalidDate" classname="com.dt042g.project.AllTasksControllerTest" time="0.013"/>
+  <testcase name="testAddingTasks" classname="com.dt042g.project.AllTasksControllerTest" time="0.023"/>
+  <testcase name="testEmptyTaskForm" classname="com.dt042g.project.AllTasksControllerTest" time="0.009"/>
+  <testcase name="testInvalidImportEvent" classname="com.dt042g.project.AllTasksControllerTest" time="0.076"/>
+  <testcase name="testFilledTaskForm" classname="com.dt042g.project.AllTasksControllerTest" time="0.022"/>
+  <testcase name="testViewIndividualTask" classname="com.dt042g.project.AllTasksControllerTest" time="0.004"/>
+  <testcase name="testEmptyCategoryForm" classname="com.dt042g.project.AllTasksControllerTest" time="0.01"/>
+  <testcase name="testImportEvent" classname="com.dt042g.project.AllTasksControllerTest" time="0.023"/>
+  <testcase name="testSwitchEvent" classname="com.dt042g.project.AllTasksControllerTest" time="0.001"/>
+  <testcase name="testFilledCategoryForm" classname="com.dt042g.project.AllTasksControllerTest" time="0.004"/>
+</testsuite>

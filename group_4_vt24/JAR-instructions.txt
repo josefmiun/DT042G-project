@@ -1,0 +1,4 @@
+To run the JAR of the project:
+ 1. copy-paste the file "todo_list_database.db" into the same folder as the JAR.
+ 2. run the JAR-version that is specified as '...-jar-with-dependencies.jar'.
+ 3. success.
