@@ -7,7 +7,7 @@
 # documentation.
 
 name: Java CI with Maven
-
+run-name: maven CI
 on:
   push:
     branches: [ "main" ]
